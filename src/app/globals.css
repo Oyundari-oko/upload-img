@@ -5,8 +5,11 @@
   gap: 20px;
 }
 .uploadButton {
+  background-color: aliceblue;
+  border: solid rgb(148, 205, 254) 1px;
+  border-radius: 5px;
   width: 7vw;
-  height: 4vh;
+  height: 3vh;
 }
 .pic {
   display: flex;

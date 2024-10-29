@@ -32,6 +32,11 @@ const Picture = () => {
       <div className="pic">
         <input
           type="file"
+          style={{
+            backgroundColor: "aliceblue",
+            border: "solid,rgb(148, 205, 254) 1px;",
+            borderRadius: "5px",
+          }}
           onChange={(e) => picFile(e)}
           accept="image/*"
         ></input>

@@ -39,7 +39,7 @@ const Picture = () => {
           <button onClick={picUpload} className="uploadButton">
             upload🤔
           </button>
-          {uploadImg && <img height={200} width={200} src={uploadImg} />}
+          {uploadImg && <img height={400} width={500} src={uploadImg} />}
         </div>
       </div>
     </div>
